@@ -9,24 +9,25 @@ For example consider the simple transcript TR1, which aligns to the a genome as 
 
 We can compactly express this alignment in the same way that we compactly represent a read alignment in the SAM/BAM format using a position and CIGAR string. In this case, the (0-based) position is CHR1:3, and the CIGAR string is 8M7D6M2I2M11D7M. 
 
-The objective is then to translate a (0-based) transcript coordinate to a (0-based) genome coordinate. For example, the fifth base in TR1 (i.e.TR1:4) maps to genome coordinate CHR1:7. Similarly,TR1:13 maps to CHR1:23 and TR1:14 maps to an insertion immediately before CHR1:24.
-
-This software uses a transcript-genome mapping file to generate a transcript_coordinate:genome_coordinate dictionary. 
+The objective is then to translate a (0-based) transcript coordinate to a (0-based) genome coordinate. For example, the fifth base in TR1 (i.e.TR1:4) maps to genome coordinate CHR1:7. Similarly, TR1:13 maps to CHR1:23 and TR1:14 maps to an insertion immediately before CHR1:24.
 
 Example: 
 	python translate_coordinate.py -m mapping_file.txt -q query_file.txt -o outfile.txt
-  
+
 Input file 1: mapping_file.txt:
+
 TR1	CHR1	3	8M7D6M2I2M11D7M
 TR2	CHR2	10	20M
 
 Input file 2: query_file.txt:
+
 TR1	4
 TR2	0
 TR1	13
 TR2	10
 
 Output file: outfile.txt:
+
 TR1	4	CHR1	7
 TR2	0	CHR2	10
 TR1	13	CHR1	23
