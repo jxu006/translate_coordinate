@@ -11,3 +11,26 @@ We can compactly express this alignment in the same way that we compactly repres
 
 The objective is then to translate a (0-based) transcript coordinate to a (0-based) genome coordinate. For example, the fifth base in TR1 (i.e.TR1:4) maps to genome coordinate CHR1:7. Similarly,TR1:13 maps to CHR1:23 and TR1:14 maps to an insertion immediately before CHR1:24.
 
+This software uses a transcript-genome mapping file to generate a transcript_coordinate:genome_coordinate dictionary. 
+
+Example: 
+	python translate_coordinate.py -m mapping_file.txt -q query_file.txt -o outfile.txt
+  
+Input file 1: mapping_file.txt:
+TR1	CHR1	3	8M7D6M2I2M11D7M
+TR2	CHR2	10	20M
+
+Input file 2: query_file.txt:
+TR1	4
+TR2	0
+TR1	13
+TR2	10
+
+Output file: outfile.txt:
+TR1	4	CHR1	7
+TR2	0	CHR2	10
+TR1	13	CHR1	23
+TR2	10	CHR2	20
+
+
+
