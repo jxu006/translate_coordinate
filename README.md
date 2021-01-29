@@ -8,12 +8,6 @@ For example consider the simple transcript TR1, which aligns to the a genome as 
 
 ![Screen Shot 2021-01-29 at 1 09 36 AM](https://user-images.githubusercontent.com/11094958/106255510-f6ff0f00-61ce-11eb-9f65-629d4d441635.png)
 
-
-![alt tag](https://github.com/jxu006/translate_coordinate/issues/1#issue-796711654)
-
-https://github.com/jxu006/translate_coordinate/issues/1#issue-796711654
-
-
 We can compactly express this alignment in the same way that we compactly represent a read alignment in the S​AM/BAM format:​using a position and CIGAR string. In this case, the (0­based) position is CHR1:3, and the CIGAR string is ​8M7D6M2I2M11D7M.​For this exercise, you may assume that the transcript is always mapped from genomic 5’ to 3’.
 
 
