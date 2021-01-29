@@ -25,7 +25,7 @@ Input file 2: query_file.txt:
 
 
 Output file: outfile.txt:
-
+![Screen Shot 2021-01-29 at 1 37 55 AM](https://user-images.githubusercontent.com/11094958/106258415-a4275680-61d2-11eb-801d-06fcf67177f2.png)
 
 
 
