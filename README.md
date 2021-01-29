@@ -6,6 +6,8 @@ The objective is to write software that translates transcript coordinates to gen
 
 For example consider the simple transcript TR1, which aligns to the a genome as follows:
 
+![alt tag](https://github.com/jxu006/translate_coordinate/issues/1#issue-796711654)
+
 https://github.com/jxu006/translate_coordinate/issues/1#issue-796711654
 
 
