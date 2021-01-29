@@ -17,7 +17,6 @@ Example:
 Input file 1: mapping_file.txt:
 
 TR1	CHR1	3	8M7D6M2I2M11D7M
-
 TR2	CHR2	10	20M
 
 Input file 2: query_file.txt:
