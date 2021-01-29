@@ -20,12 +20,15 @@ Input file 1: mapping_file.txt:
 ![Screen Shot 2021-01-29 at 1 35 52 AM](https://user-images.githubusercontent.com/11094958/106258187-60cce800-61d2-11eb-9123-5dcd527e25c8.png)
 
 
+The mapping_file.txt is a four column (tab-separated) file containing the transcripts. The first column is the transcript name, and the remaining three columns indicate it’s genomic mapping: chromosome name, 0-based starting position on the chromosome, and CIGAR string indicating the mapping.
+
 
 Input file 2: query_file.txt:
 
 
 ![Screen Shot 2021-01-29 at 1 36 48 AM](https://user-images.githubusercontent.com/11094958/106258317-84902e00-61d2-11eb-8a72-4e25259713f6.png)
 
+The query_file.txt is a two column (tab-separated) file indicating a set of queries. The first column is a transcript name, and the second column is a 0-based transcript coordinate.
 
 Output file: outfile.txt:
 
