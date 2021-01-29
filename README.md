@@ -18,22 +18,15 @@ Input file 1: mapping_file.txt:
 
 ![Screen Shot 2021-01-29 at 1 35 52 AM](https://user-images.githubusercontent.com/11094958/106258187-60cce800-61d2-11eb-9123-5dcd527e25c8.png)
 
-TR1	CHR1	3	8M7D6M2I2M11D7M
-TR2	CHR2	10	20M
+
 
 Input file 2: query_file.txt:
+![Screen Shot 2021-01-29 at 1 36 48 AM](https://user-images.githubusercontent.com/11094958/106258317-84902e00-61d2-11eb-8a72-4e25259713f6.png)
 
-TR1	4
-TR2	0
-TR1	13
-TR2	10
 
 Output file: outfile.txt:
 
-TR1	4	CHR1	7
-TR2	0	CHR2	10
-TR1	13	CHR1	23
-TR2	10	CHR2	20
+
 
 
 
