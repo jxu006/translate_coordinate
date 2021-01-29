@@ -16,6 +16,8 @@ Example:
 
 Input file 1: mapping_file.txt:
 
+![Screen Shot 2021-01-29 at 1 35 52 AM](https://user-images.githubusercontent.com/11094958/106258187-60cce800-61d2-11eb-9123-5dcd527e25c8.png)
+
 TR1	CHR1	3	8M7D6M2I2M11D7M
 TR2	CHR2	10	20M
 
